@@ -1,0 +1,1190 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
+
+
+body,
+input,
+textarea,
+.mbr-company .list-group-text {
+  font-family: 'Raleway', sans-serif;
+}
+.mbr-footer-content li,
+.mbr-footer .mbr-contacts li {
+  font-family: 'Raleway', sans-serif;
+}
+.btn,
+.alert,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.mbr-figure .mbr-figure-caption,
+.mbr-gallery-title,
+.mbr-map [data-state-details],
+.mbr-price {
+  font-family: 'Montserrat', sans-serif;
+}
+.mbr-footer-content h1,
+.mbr-footer .mbr-contacts h1,
+.mbr-footer-content h2,
+.mbr-footer .mbr-contacts h2,
+.mbr-footer-content h3,
+.mbr-footer .mbr-contacts h3,
+.mbr-footer-content h4,
+.mbr-footer .mbr-contacts h4,
+.mbr-footer-content p strong,
+.mbr-footer .mbr-contacts p strong,
+.mbr-footer-content strong,
+.mbr-footer .mbr-contacts strong {
+  font-family: 'Montserrat', sans-serif;
+}
+.btn-sm,
+.lead a,
+.lead blockquote,
+.mbr-section-subtitle,
+.mbr-section-hero .mbr-section-lead,
+.mbr-cards .card-subtitle,
+.mbr-testimonial .card-block {
+  font-family: 'Lora', serif;
+}
+.mbr-author-name {
+  font-family: 'Montserrat', sans-serif;
+}
+.mbr-author-desc {
+  font-family: 'Lora', serif;
+}
+.mbr-plan-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.mbr-plan-subtitle,
+.mbr-plan-price-desc {
+  font-family: 'Lora', serif;
+}
+.bg-primary {
+  background-color: #c0a375 !important;
+}
+.bg-success {
+  background-color: #90a878 !important;
+}
+.bg-info {
+  background-color: #7e9b9f !important;
+}
+.bg-warning {
+  background-color: #f3c649 !important;
+}
+.bg-danger {
+  background-color: #f28281 !important;
+}
+.btn-primary {
+  background-color: #c0a375;
+  border-color: #c0a375;
+  color: #ffffff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active {
+  color: #ffffff;
+  background-color: #a07e49;
+  border-color: #a07e49;
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #ffffff !important;
+  background-color: #a07e49 !important;
+  border-color: #a07e49 !important;
+}
+.btn-secondary {
+  background-color: #bfcecb;
+  border-color: #bfcecb;
+  color: #ffffff;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary:active,
+.btn-secondary.active {
+  color: #ffffff;
+  background-color: #94ada8;
+  border-color: #94ada8;
+}
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+  color: #ffffff !important;
+  background-color: #94ada8 !important;
+  border-color: #94ada8 !important;
+}
+.btn-info {
+  background-color: #7e9b9f;
+  border-color: #7e9b9f;
+  color: #ffffff;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active,
+.btn-info.active {
+  color: #ffffff;
+  background-color: #597478;
+  border-color: #597478;
+}
+.btn-info.disabled,
+.btn-info:disabled {
+  color: #ffffff !important;
+  background-color: #597478 !important;
+  border-color: #597478 !important;
+}
+.btn-success {
+  background-color: #90a878;
+  border-color: #90a878;
+  color: #ffffff;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success:active,
+.btn-success.active {
+  color: #ffffff;
+  background-color: #6a8153;
+  border-color: #6a8153;
+}
+.btn-success.disabled,
+.btn-success:disabled {
+  color: #ffffff !important;
+  background-color: #6a8153 !important;
+  border-color: #6a8153 !important;
+}
+.btn-warning {
+  background-color: #f3c649;
+  border-color: #f3c649;
+  color: #ffffff;
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning:active,
+.btn-warning.active {
+  color: #ffffff;
+  background-color: #e1a90f;
+  border-color: #e1a90f;
+}
+.btn-warning.disabled,
+.btn-warning:disabled {
+  color: #ffffff !important;
+  background-color: #e1a90f !important;
+  border-color: #e1a90f !important;
+}
+.btn-danger {
+  background-color: #f28281;
+  border-color: #f28281;
+  color: #ffffff;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger:active,
+.btn-danger.active {
+  color: #ffffff;
+  background-color: #eb3d3c;
+  border-color: #eb3d3c;
+}
+.btn-danger.disabled,
+.btn-danger:disabled {
+  color: #ffffff !important;
+  background-color: #eb3d3c !important;
+  border-color: #eb3d3c !important;
+}
+.btn-primary-outline {
+  background: none;
+  border-color: #8e7041;
+  color: #8e7041;
+}
+.btn-primary-outline:hover,
+.btn-primary-outline:focus,
+.btn-primary-outline.focus,
+.btn-primary-outline:active,
+.btn-primary-outline.active {
+  color: #ffffff;
+  background-color: #c0a375;
+  border-color: #c0a375;
+}
+.btn-primary-outline.disabled,
+.btn-primary-outline:disabled {
+  color: #ffffff !important;
+  background-color: #c0a375 !important;
+  border-color: #c0a375 !important;
+}
+.btn-secondary-outline {
+  background: none;
+  border-color: #85a29c;
+  color: #85a29c;
+}
+.btn-secondary-outline:hover,
+.btn-secondary-outline:focus,
+.btn-secondary-outline.focus,
+.btn-secondary-outline:active,
+.btn-secondary-outline.active {
+  color: #ffffff;
+  background-color: #bfcecb;
+  border-color: #bfcecb;
+}
+.btn-secondary-outline.disabled,
+.btn-secondary-outline:disabled {
+  color: #ffffff !important;
+  background-color: #bfcecb !important;
+  border-color: #bfcecb !important;
+}
+.btn-info-outline {
+  background: none;
+  border-color: #4e6669;
+  color: #4e6669;
+}
+.btn-info-outline:hover,
+.btn-info-outline:focus,
+.btn-info-outline.focus,
+.btn-info-outline:active,
+.btn-info-outline.active {
+  color: #ffffff;
+  background-color: #7e9b9f;
+  border-color: #7e9b9f;
+}
+.btn-info-outline.disabled,
+.btn-info-outline:disabled {
+  color: #ffffff !important;
+  background-color: #7e9b9f !important;
+  border-color: #7e9b9f !important;
+}
+.btn-success-outline {
+  background: none;
+  border-color: #5d7149;
+  color: #5d7149;
+}
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline.focus,
+.btn-success-outline:active,
+.btn-success-outline.active {
+  color: #ffffff;
+  background-color: #90a878;
+  border-color: #90a878;
+}
+.btn-success-outline.disabled,
+.btn-success-outline:disabled {
+  color: #ffffff !important;
+  background-color: #90a878 !important;
+  border-color: #90a878 !important;
+}
+.btn-warning-outline {
+  background: none;
+  border-color: #c9970d;
+  color: #c9970d;
+}
+.btn-warning-outline:hover,
+.btn-warning-outline:focus,
+.btn-warning-outline.focus,
+.btn-warning-outline:active,
+.btn-warning-outline.active {
+  color: #ffffff;
+  background-color: #f3c649;
+  border-color: #f3c649;
+}
+.btn-warning-outline.disabled,
+.btn-warning-outline:disabled {
+  color: #ffffff !important;
+  background-color: #f3c649 !important;
+  border-color: #f3c649 !important;
+}
+.btn-danger-outline {
+  background: none;
+  border-color: #e82625;
+  color: #e82625;
+}
+.btn-danger-outline:hover,
+.btn-danger-outline:focus,
+.btn-danger-outline.focus,
+.btn-danger-outline:active,
+.btn-danger-outline.active {
+  color: #ffffff;
+  background-color: #f28281;
+  border-color: #f28281;
+}
+.btn-danger-outline.disabled,
+.btn-danger-outline:disabled {
+  color: #ffffff !important;
+  background-color: #f28281 !important;
+  border-color: #f28281 !important;
+}
+.text-primary {
+  color: #c0a375 !important;
+}
+.text-success {
+  color: #90a878 !important;
+}
+.text-info {
+  color: #7e9b9f !important;
+}
+.text-warning {
+  color: #f3c649 !important;
+}
+.text-danger {
+  color: #f28281 !important;
+}
+.alert-success {
+  background-color: #90a878;
+}
+.alert-info {
+  background-color: #7e9b9f;
+}
+.alert-warning {
+  background-color: #f3c649;
+}
+.alert-danger {
+  background-color: #f28281;
+}
+.btn-social {
+  border-color: #c0a375;
+}
+.btn-social:hover {
+  background: #c0a375;
+}
+.mbr-company .list-group-item.active .list-group-text {
+  color: #c0a375;
+}
+.mbr-footer p a,
+.mbr-footer ul a {
+  color: #c0a375;
+}
+.mbr-footer-content li::before,
+.mbr-footer .mbr-contacts li::before {
+  background: #c0a375;
+}
+.mbr-footer-content li a:hover,
+.mbr-footer .mbr-contacts li a:hover {
+  color: #c0a375;
+}
+.lead a,
+.lead a:hover {
+  color: #c0a375;
+}
+.lead blockquote {
+  border-color: #c0a375;
+}
+.mbr-plan-header.bg-primary .mbr-plan-subtitle,
+.mbr-plan-header.bg-primary .mbr-plan-price-desc {
+  color: #e8ddcd;
+}
+.mbr-plan-header.bg-success .mbr-plan-subtitle,
+.mbr-plan-header.bg-success .mbr-plan-price-desc {
+  color: #d0dac6;
+}
+.mbr-plan-header.bg-info .mbr-plan-subtitle,
+.mbr-plan-header.bg-info .mbr-plan-price-desc {
+  color: #c7d4d5;
+}
+.mbr-plan-header.bg-warning .mbr-plan-subtitle,
+.mbr-plan-header.bg-warning .mbr-plan-price-desc {
+  color: #ffffff;
+}
+.mbr-plan-header.bg-danger .mbr-plan-subtitle,
+.mbr-plan-header.bg-danger .mbr-plan-price-desc {
+  color: #ffffff;
+}
+.mbr-small-footer a,
+.mbr-gallery-filter li:hover {
+  color: #c0a375;
+}
+.scrollToTop_wraper {
+  opacity: 0 !important;
+}
+.extCountdown1 .number,
+.extCountdown2 .number {
+  font-family: 'Montserrat', sans-serif;
+}
+.extCountdown1 .period,
+.extCountdown2 .period {
+  font-family: 'Lora', serif;
+}
+.extCountdown1 .dot,
+.extCountdown2 .dot {
+  font-family: 'Montserrat', sans-serif;
+}
+.features6 .feature-subtitle {
+  font-family: 'Lora', serif;
+}
+.features6 .feature-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.features6 .description {
+  font-family: 'Raleway', sans-serif;
+}
+.count,
+.counter-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.counter-subtitle {
+  font-family: 'Lora', serif;
+}
+.mbr-iconfont-counters1 {
+  color: #c0a375;
+}
+.extHeader1 .container h3,
+.extHeader2 .container h3,
+.extHeader3 .container h3,
+.extHeader5 .container h3,
+.extHeader6 .container h3,
+.extHeader7 .container h3,
+.extHeader8 .container h3,
+.extHeader9 .container h3,
+.extHeader10 .container h3,
+.extHeader12 .container h3,
+.extHeader13 .container h3,
+.extFeatures10 .container h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader1 .container p,
+.extHeader2 .container p,
+.extHeader3 .container p,
+.extHeader5 .container p,
+.extHeader6 .container p,
+.extHeader7 .container p,
+.extHeader8 .container p,
+.extHeader9 .container p,
+.extHeader10 .container p,
+.extHeader12 .container p,
+.extHeader13 .container p,
+.extFeatures10 .container p {
+  font-family: 'Lora', serif;
+}
+.extHeader5 .container label {
+  font-family: 'Lora', serif;
+}
+.extHeader9 form p.form-subtitle {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader11 .container span {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader11 .container p.element {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader11 .container p {
+  font-family: 'Lora', serif;
+}
+.extHeader12 h4,
+.extFeatures10 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader12 .subtitle,
+.extFeatures10 .subtitle {
+  font-family: 'Lora', serif;
+}
+.extHeader13 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader13 .number {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader13 .period {
+  font-family: 'Lora', serif;
+}
+.extHeader13 .dot {
+  font-family: 'Montserrat', sans-serif;
+}
+.extFeatures .feature-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.extFeatures .feature-subtitle {
+  font-family: 'Lora', serif;
+}
+.extFeatures .feature-text {
+  font-family: 'Raleway', sans-serif;
+}
+.extFeatures2 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extFeatures3 .border-wrap {
+  border-color: #c0a375;
+}
+.extFeatures4 h4,
+.extFeatures6 h4,
+.extFeatures5 .card-title h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extFeatures4 h5,
+.extFeatures6 h5,
+.extFeatures5 .card-title h5 {
+  font-family: 'Lora', serif;
+}
+.extForm1 h4,
+.extForm2 h4,
+.extForm3 h4,
+.extForm4 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extForm1 .subtitle,
+.extForm2 .subtitle,
+.extForm3 .subtitle,
+.extForm4 .subtitle {
+  font-family: 'Lora', serif;
+}
+.extForm2 .container h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extForm2 .container p {
+  font-family: 'Lora', serif;
+}
+.extPricingTable1 .bottom_line {
+  border-bottom-color: #c0a375;
+}
+.extPricingTable1 .mbr-price small {
+  font-family: 'Lora', serif;
+}
+.extPricingTable1 .mbr-plan-label {
+  background: #c0a375;
+}
+.extCounters2 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extCounters2 h5 {
+  font-family: 'Lora', serif;
+}
+.extCounters3 .count {
+  font-family: 'Montserrat', sans-serif;
+}
+.extCounters3 .counter-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.extCounters3 .counter-subtitle {
+  font-family: 'Lora', serif;
+}
+.extProgressBar .progress-primary[value]::-webkit-progress-value {
+  background-color: #c0a375;
+}
+.extProgressBar .progress-primary[value]::-moz-progress-bar {
+  background-color: #c0a375;
+}
+@media screen and (min-width: 0\0) {
+  .extProgressBar .progress-primary .progress-bar {
+    background-color: #c0a375;
+  }
+}
+.extProgressBar .title-wrap {
+  font-family: 'Lora', serif;
+}
+.extProgressBarRound .progress-radial .overlay {
+  font-family: 'Montserrat', sans-serif;
+}
+.extProgressBar4 .feature-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.extProgressBar4 .feature-subtitle {
+  font-family: 'Lora', serif;
+}
+.extTabs1 ul.nav-tabs li a:hover,
+.extTabs2 ul.nav-tabs li a:hover {
+  color: #c0a375;
+}
+.extAccordion1 .panel-heading a {
+  font-family: 'Raleway', sans-serif;
+}
+.extAccordion1 .pseudoPlus,
+.extAccordion2 .pseudoPlus,
+.extToggle1 .pseudoPlus,
+.extAccordion1 .pseudoPlus:after,
+.extAccordion2 .pseudoPlus:after,
+.extToggle1 .pseudoPlus:after,
+.extAccordion1 .pseudoMinus,
+.extAccordion2 .pseudoMinus,
+.extToggle1 .pseudoMinus {
+  background-color: #c0a375;
+}
+.extAccordion2 .panel-heading a,
+.extAccordion3 .panel-heading a,
+.extToggle1 .panel-heading a {
+  font-family: 'Raleway', sans-serif;
+}
+.extProgressBar5 .progress-primary[value]::-webkit-progress-value {
+  background-color: #c0a375;
+}
+.extProgressBar5 .progress-primary[value]::-moz-progress-bar {
+  background-color: #c0a375;
+}
+@media screen and (min-width: 0\0) {
+  .extProgressBar5 .progress-primary .progress-bar {
+    background-color: #c0a375;
+  }
+}
+.extProgressBar5 .title-wrap {
+  font-family: 'Lora', serif;
+}
+.extMsg-box1 .container h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extMsg-box1 .container p {
+  font-family: 'Lora', serif;
+}
+.extMsg-box1 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extMsg-box1 .subtitle {
+  font-family: 'Lora', serif;
+}
+.extMsg-box2 .container span,
+.extMsg-box3 .container span,
+.extMsg-box4 .container span {
+  font-family: 'Montserrat', sans-serif;
+}
+.extMsg-box2 .container p,
+.extMsg-box3 .container p,
+.extMsg-box4 .container p {
+  font-family: 'Lora', serif;
+}
+.extProgressBarRound .pie_progress__number {
+  font-family: 'Montserrat', sans-serif;
+}
+.extMenu1 span.icon a:hover {
+  color: #c0a375 !important;
+}
+.extProgressBar .progress-primary[value]::-ms-fill {
+  color: #c0a375;
+}
+.extProgressBar5 .progress-primary[value]::-ms-fill {
+  color: #c0a375;
+}
+.theme-border {
+  border: 1px solid #c0a375;
+}
+#msg-box5-o H3 {
+  color: #ffffff;
+}
+#msg-box5-o P {
+  color: #efefef;
+}
+#msg-box5-o .col-md-5 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 50px;
+  padding-right: 50px;
+  border-left: rgba(255, 0, 0, 0.8) solid 10px;
+  -webkit-box-shadow: -5px 0px 20px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 0px 20px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px 0px 20px -1px rgba(0, 0, 0, 0.75);
+}
+#msg-box5-o .fadeInUp {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+#msg-box5-o .mbr-figure {
+  visibility: hidden;
+}
+#msg-box5-o .mbr-figure .fadeInUp {
+  visibility: hidden!important;
+}
+#msg-box5-o .container {
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  #msg-box5-o .col-md-5 {
+    border-left: none;
+    border-top: rgba(255, 0, 0, 0.8) solid 10px;
+  }
+  #msg-box5-o .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
+}
+#msg-box5-l .container {
+  max-width: 100%;
+}
+#msg-box5-l .col-md-7 {
+  padding-left: 0px;
+}
+#msg-box5-l .mbr-figure {
+  padding-top: 0px;
+}
+#msg-box5-l .col-md-7 .fadeInUp {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+#msg-box5-l .col-md-5 .fadeInUp {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+#msg-box5-m {
+  /*this sets the container to fill the entire viewport width */
+  /*these two clear out the free space around the image - play around with the numbers
+    or add your own declarations in case you need to */
+  /* animation adjustment of the entrance of the main elements of 
+    SOLID INTRO WITH IMAGE 
+    block in default Mobirise3 theme */
+  /* image entrance */
+  /* text block entrance */
+  /* animation adjustment end */
+}
+#msg-box5-m .container {
+  max-width: 100%;
+}
+#msg-box5-m .col-md-7 {
+  padding-right: 0px;
+}
+#msg-box5-m .mbr-figure {
+  padding-top: 0px;
+}
+#msg-box5-m .col-md-7 .fadeInUp {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+#msg-box5-m .col-md-5 .fadeInUp {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+#features3-i {
+  /*.mbr-cards-col:nth-child(1) .card-img .fadeInUp {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+.mbr-cards-col:nth-child(1) .card-block .fadeInUp {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}*/
+}
+#features3-i .card-img .fadeInUp {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+#features3-i .card-block .fadeInUp {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+#features3-h {
+  /* Flipping cards 
+Custom CSS snippet for the native Mobirise3 theme Features block */
+  /*flip animation definition - redefines the built in animate.css classes */
+  /*flip animation definition end */
+  /* reverse flip animation - somment this part of the snippet to have the card
+spinning in only one direction */
+  /* reverse flip animation end
+also make sure you replace flipOutYr with flipOutY and flipInYr with flipInY 
+(remove the r at the end of the classes outside the animation definitiotn) 
+from this point down */
+  /*blocks animation - comment this part to edit the cards content in Mobirise Builder */
+  /*blocks animation end */
+  /*background images for the cards - include the images you need 
+into a dummy page with resizing turned off 
+next publish to loacal dir and go to assets/images to see the if
+the file names have changed
+lastly - replace the file names in the url declaration*/
+  /*background image for the first card */
+  /*background image for the second card */
+  /*background image for the third card */
+  /*background image for the fourth card */
+  /*background image for the fift card */
+  /*background image for the sixt card */
+  /*background images for the cards end */
+  /*end of flip cards Custom CSS snippet */
+}
+#features3-h P {
+  color: #000000;
+}
+#features3-h H5 {
+  color: #000000;
+}
+#features3-h H4 {
+  color: #000000;
+}
+@-webkit-keyframes flipOutY {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+  to {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 180deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 180deg);
+    opacity: 0;
+  }
+}
+@keyframes flipOutY {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+  to {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 180deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 180deg);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes flipInY {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 180.1deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 180.01deg);
+    /*  -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;*/
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+@keyframes flipInY {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 180.01deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 180.01deg);
+    /* -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;*/
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+@-webkit-keyframes flipOutYr {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+  to {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 180.01deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 180.01deg);
+    opacity: 0;
+  }
+}
+@keyframes flipOutYr {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+  to {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 180.01deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 180.01deg);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes flipInYr {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 180deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 180deg);
+    /*  -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;*/
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+@keyframes flipInYr {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 180deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 180deg);
+    /* -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;*/
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+#features3-h .card {
+  position: relative;
+}
+#features3-h .card-block {
+  -webkit-animation-name: flipOutYr;
+  animation-name: flipOutYr;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+#features3-h .card-img {
+  -webkit-animation-name: flipInYr;
+  animation-name: flipInYr;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#features3-h .card:hover .card-img {
+  -webkit-animation-name: flipOutY;
+  animation-name: flipOutY;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+#features3-h .card:hover .card-block {
+  -webkit-animation-name: flipInY;
+  animation-name: flipInY;
+  animation-duration: 0.9s;
+  animation-fill-mode: both;
+}
+#features3-h .mbr-cards-col:nth-child(1) .card-block {
+  background-image: url(../../images/desktop.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  /* solid color overlay */
+  /*   background-blend-mode:overlay; so far not supported by Code Editor - include in a style tag in head instead*/
+  background-size: cover;
+  /* change to cover if needed  */
+  background-repeat: no-repeat;
+}
+#features3-h .mbr-cards-col:nth-child(2) .card-block {
+  background-image: url(../../images/coworkers.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  /* solid color overlay */
+  /*   background-blend-mode:overlay; so far not supported by Code Editor - include in a style tag in head instead*/
+  background-size: cover;
+  /* change to cover if needed  */
+  background-repeat: no-repeat;
+}
+#features3-h .mbr-cards-col:nth-child(3) .card-block {
+  background-image: url(../../images/desktop.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  /* solid color overlay */
+  /*   background-blend-mode:overlay; so far not supported by Code Editor - include in a style tag in head instead*/
+  background-size: contain;
+  /* change to cover if needed  */
+  background-repeat: no-repeat;
+}
+#features3-h .mbr-cards-col:nth-child(4) .card-block {
+  background-image: url(../../images/desktop.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  /* solid color overlay */
+  /*   background-blend-mode:overlay; so far not supported by Code Editor - include in a style tag in head instead*/
+  background-size: contain;
+  /* change to cover if needed  */
+  background-repeat: no-repeat;
+}
+#features3-h .mbr-cards-col:nth-child(5) .card-block {
+  background-image: url(../../images/desktop.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  /* solid color overlay */
+  /*   background-blend-mode:overlay; so far not supported by Code Editor - include in a style tag in head instead*/
+  background-size: contain;
+  /* change to cover if needed  */
+  background-repeat: no-repeat;
+}
+#features3-h .mbr-cards-col:nth-child(6) .card-block {
+  background-image: url(../../images/desktop.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  /* solid color overlay */
+  /*   background-blend-mode:overlay; so far not supported by Code Editor - include in a style tag in head instead*/
+  background-size: contain;
+  /* change to cover if needed  */
+  background-repeat: no-repeat;
+}
+#features3-s {
+  /* Custom CSS script placing card's text over the image making it appear on hover */
+  /* comment the whole thing to be able to see and edit the text in Mobirise Builder */
+  /*adjust these values to make the text block fit your image */
+  /* and center the text content vertically */
+  /* on large screens */
+  /* on smaller screens when cards stack over each other */
+  /* adjust text block background color and opacity */
+}
+#features3-s .card {
+  position: relative;
+}
+@media (min-width: 992px) {
+  #features3-s .card-block {
+    height: 20.7vw;
+    padding: 10% 5%;
+  }
+}
+@media (max-width: 991px) {
+  #features3-s .card-block {
+    height: 52.5vw;
+    padding: 20% 5%;
+  }
+}
+#features3-s .card-block {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+#features3-s .card-img {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#features3-s .card:hover .card-block {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+#features3-s .card-block {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#extFeatures9-t {
+  /* Custom CSS script placing card's text over the image making it appear on hover */
+  /* comment the whole thing to be able to see and edit the text in Mobirise Builder */
+  /*adjust these values to make the text block fit your image */
+  /* and center the text content vertically */
+  /* on large screens */
+  /* on smaller screens when cards stack over each other */
+  /* adjust text block background color and opacity */
+}
+#extFeatures9-t .card {
+  position: relative;
+}
+@media (min-width: 992px) {
+  #extFeatures9-t .card-block {
+    height: 20.7vw;
+    padding: 10% 5%;
+  }
+}
+@media (max-width: 991px) {
+  #extFeatures9-t .card-block {
+    height: 52.5vw;
+    padding: 20% 5%;
+  }
+}
+#extFeatures9-t .card-block {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+#extFeatures9-t .feature-img {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#extFeatures9-t .card:hover .card-block {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+#extFeatures9-t .card-block {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#map2-d .mbr-map {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#map2-d .mbr-map {
+  /* vertical-align: middle !important; */
+  overflow: hidden !important;
+  position: relative;
+}
+#map2-d iframe {
+  height: 150%;
+  position: absolute;
+  top: -100px;
+}
+#image1-3 .mbr-figure {
+  margin-top: -16.3%;
+  margin-bottom: -17%;
+  z-index: 5;
+}
+#extHeader6-a h3 {
+  margin-bottom: -70px;
+}
+#social-buttons4-9 .mbr-section-title,
+#social-buttons4-9 .btn-social {
+  color: #fff;
+}
+#header6-p .mbr-section-title {
+  color: #28262b;
+}
+#header6-p .mbr-section-text {
+  color: #565656;
+}
+#ext_menu-13 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#ext_menu-13 .navbar-caption {
+  color: #ffffff;
+}
+#ext_menu-13 .navbar-toggler {
+  color: #ffffff;
+}
+#ext_menu-13 .close-icon::before,
+#ext_menu-13 .close-icon::after {
+  background-color: #ffffff;
+}
+#ext_menu-13 .link,
+#ext_menu-13 .dropdown-item {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+#ext_menu-13 .link {
+  font-size: 0.85rem;
+}
+#ext_menu-13 .dropdown-item,
+#ext_menu-13 .nav-dropdown-sm .link {
+  font-size: 0.921rem;
+}
+#ext_menu-13 .link:hover,
+#ext_menu-13 .dropdown-item:hover,
+#ext_menu-13 .link:focus,
+#ext_menu-13 .dropdown-item:focus {
+  color: #c0a375;
+}
+#ext_menu-13 .link[aria-expanded="true"],
+#ext_menu-13 .dropdown-menu {
+  background: #000000;
+}
+#ext_menu-13 .nav-dropdown-sm .link:focus,
+#ext_menu-13 .nav-dropdown-sm .link:hover,
+#ext_menu-13 .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-13 .nav-dropdown-sm .dropdown-item:hover {
+  background: #000000!important;
+}
+#ext_menu-13 .navbar,
+#ext_menu-13 .nav-dropdown-sm,
+#ext_menu-13 .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-13 .nav-dropdown-sm .dropdown-menu {
+  background: #000000;
+}
+#ext_menu-13 .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#ext_menu-13 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-13 .bg-color.transparent.opened .link:hover,
+#ext_menu-13 .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#ext_menu-13 .link[aria-expanded="true"],
+#ext_menu-13 .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
